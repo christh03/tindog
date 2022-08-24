@@ -1,0 +1,214 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3{
+    font-weight: 900;
+}
+
+
+
+.title-text{
+    font-family: 'Montserrat-black', sans-serif;
+    color: #f2f2f2;
+    font-size: 3.5rm;
+    line-height: 1.5;
+}
+
+.header{
+    background-color: #ff4c68;
+    overflow: hidden;
+}
+
+
+
+.title-image{
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+
+.navbar{
+    padding-bottom:4.5rem ;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+/* Download Buttom */
+
+.download-buttom{
+    margin: 5% 3% 5% 0 ;
+}
+
+/*Easy Use */
+
+.main{
+    position:relative;
+    z-index: 40;
+}
+
+.use-container{
+    background-color: white;
+    padding: 3% 15%;
+    margin: 0;
+}
+
+.fa-solid{
+    font-size: 3.5rem;
+    color: #ef8172;
+}
+
+.fa-solid:hover{
+    color: #ff4c68;
+}
+
+
+
+
+
+.use-title{
+    margin-top: 1rem;
+    font-family: 'Montserrat' ;
+    font-weight:900;
+    font-size: 1.5rem;
+}
+
+.use-text{
+    color: #8f8f8f;
+    
+}
+
+.container{
+    margin: 2rem 0rem;
+    text-align: center;
+    padding: 5%;
+}
+
+
+.testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+.testimonials__title{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+.testimonials-container-img{
+    width: 10%;
+    border-radius: 360px;
+    overflow: hidden;
+    margin: 20px auto 20px auto;
+}
+
+.testimonials-container-img > img{
+    width: 100%;
+}
+
+
+
+.press-logo{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo__img{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+
+.pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+
+ .find{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 10% 15%;
+} 
+
+.find__title{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.find-buttom {
+    margin: 3rem 1rem 0;
+}
+
+
+footer{
+    text-align: center;
+}
+
+.social{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+
+
+
+
+.social__link,
+.fa-envelope{
+    color: initial;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+
+
+
+@media  (max-width: 992px) {
+
+    .container-fluid{
+        text-align: center;
+    }
+
+
+  .title-image{
+      width: 60%;
+      transform: rotate(0);
+      position: static;
+}
+}
